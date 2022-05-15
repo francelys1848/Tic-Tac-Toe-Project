@@ -1,0 +1,55 @@
+@font-face {
+font-family: "LotR";
+src: url("Lot.otf");
+}
+
+@font-face {
+font-family: "Peppa Pig";
+src: url("Peppa Pig.ttf");
+}
+
+
+
+.container {
+    width:50%;
+    display:flex;
+    flex-wrap:wrap;
+    background-color:rgb(19, 18, 18);
+    justify-content: center;
+}
+
+.tile {
+    width:23%;
+    padding:5%;
+    height:        40px;
+    color:         white;
+    font-family: lot;
+}
+
+.right {
+    border-right: 1px solid black;
+}
+
+.bottom {
+    border-bottom: 1px solid black;
+}
+
+
+.logo{width:250px;}
+
+body{background-color:#F3C13C;}
+
+
+h1{font-family: LotR;
+color:rgb(19, 18, 18);}
+
+
+button{background:   rgb(19, 18, 18);
+border:        3px double rgb(47,34,230);
+border-radius: 11px;
+width:         40px;
+height:        40px;
+color:         white;
+display:       inline-block;
+font-family: Lot;
+text-align:    center;}
